@@ -1,21 +1,21 @@
-def countdown(n)
-  number = n
-  while number < 11 do
-  puts "#{number} SECOND(S)!"
-  number -= 1
+def countdown(num)
+  n = num
+  while num > 0 do
+  puts "#{num} SECOND(S)!"
+  num -= 1
   end
-  puts "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 
 
 def countdown_with_sleep(n)
-  number = n
-  while number < 6 do 
-  puts "#{number} SECOND(S)!"
-  number -= 1
+  n = num
+  while num > 0 do 
+  puts "#{num} SECOND(S)!"
+  num -= 1
   sleep (1)
   end
-  puts "HAPPY NEW YEAR!"  
+  return "HAPPY NEW YEAR!"  
 end
 
 # describe 'LOOPS' do
