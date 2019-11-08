@@ -1,6 +1,6 @@
 def countdown(n)
   number = n
-  while number < 11 do
+  while number < 10 do
   puts "#{number} SECOND(S)!"
   number -= 1
   end
