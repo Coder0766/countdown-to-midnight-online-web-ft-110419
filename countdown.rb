@@ -8,7 +8,7 @@ def countdown(num)
 end
 
 
-def countdown_with_sleep(n)
+def countdown_with_sleep(num)
   n = num
   while num > 0 do 
   puts "#{num} SECOND(S)!"
@@ -17,6 +17,8 @@ def countdown_with_sleep(n)
   end
   return "HAPPY NEW YEAR!"  
 end
+
+
 
 # describe 'LOOPS' do
 
